@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Pooe. T</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .nav-section {
+        display: flex;
+        justify-content: space-between;
+        background: #000;
+        color: #fff;
+      }
+      .logo {
+        text-decoration: none;
+        color: #fff;
+      }
+      .pipe {
+        color: rgb(1, 175, 39);
+      }
+      .navbar ul {
+        overflow: hidden;
+        list-style: none;
+      }
+      .navbar li {
+        display: inline-block;
+      }
+      .nav-links:hover,
+      .nav-links.active {
+        background: rgb(1, 175, 39);
+      }
+      .navbar .nav-links {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
+      }
+      .video {
+        background: #000;
+        margin: 15px;
+      }
+      .video-link {
+        width: 100%;
+        height: 500px;
+      }
+      .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 100px;
+      }
+      .about-text {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+      }
+      .about-text h1 {
+        font-family: "Protest Riot", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 40px;
+      }
+      .about-text p {
+        font-size: 1.2rem;
+      }
+      .about-img > img {
+        width: 500px;
+        height: 500px;
+        border: 2px solid rgb(1, 175, 39);
+        border-radius: 500px;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(1, 175, 39);
+        height: 80%;
+        width: 80%;
+      }
+      .form-data input {
+        width: 80%;
+        height: 30px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      .form-data textarea {
+        width: 80%;
+        margin-top: 10px;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+      }
+
+      .form-data .title {
+        margin: 20px 0;
+        width: 80%;
+        font-family: "Protest Riot", sans-serif;
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .form-data .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+      }
+      .form-data div {
+        margin-top: 15px;
+        text-align: center;
+        width: 80%;
+      }
+
+      .icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 8rem;
+        background: #000;
+        color: rgb(1, 175, 39);
+        height: 80%;
+        width: 80%;
+      }
+      footer {
+        display: flex;
+        justify-content: space-around;
+        background: #000;
+        height: auto;
+      }
+      .footer-sections {
+        color: #fff;
+        width: 90%;
+        padding: 30px;
+      }
+      .address {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.5rem;
+        margin-top: 30px;
+      }
+      .contact {
+        text-align: center;
+      }
+      @media (max-width: 800px) {
+        .about {
+          flex-direction: column;
+        }
+        .about-text {
+          margin-bottom: 50px;
+        }
+        footer {
+          flex-direction: column;
+          align-items: center;
+          height: 100px auto;
+        }
+        .footer-sections {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--Header section-->
+    <header class="nav-section">
+      <h1>
+        <a class="logo" href="#"
+          >Tsholofetso <span class="pipe">|</span> Pooe</a
+        >
+      </h1>
+      <nav class="navbar">
+        <ul>
+          <li><a class="nav-links active" href="index.html">Home</a></li>
+          <li><a class="nav-links" href="about.html">About me</a></li>
+          <li><a class="nav-links" href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Main section-->
+    <main>
+      <section class="video">
+        <video class="video-link" controls>
+          <source src="download.mp4" />
+        </video>
+      </section>
+      <section class="about">
+        <article class="about-text">
+          <h1>&lt;&gt;Tsholofetso Pooe&lt;/&gt;</h1>
+
+          <p>
+            <strong>My Bio - </strong> I am a skilled software developer with
+            proficiency in backend and frontend technologies, including Python,
+            JavaScript, MySQL, and ReactJS. I hold certifications in Front-End
+            Development Libraries and Back-End Development and APIs from
+            FreeCodeCamp, showcasing my hands-on experience in building scalable
+            web applications.
+            <br />
+            <br />
+            My academic background in Business Informatics, combined with my
+            technical expertise in programming languages and databases, has
+            provided me with a strong foundation in software development,
+            systems analysis, and data management. I excel at developing both
+            client-facing and server-side solutions and am committed to
+            continuous learning and improving my skills through online
+            certifications and personal projects.
+          </p>
+        </article>
+        <div class="about-img">
+          <img src="tsholofetso.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <div class="main">
+        <section class="inputs">
+          <form class="form-data" action="#">
+            <div class="title"><h2>Get In Touch</h2></div>
+
+            <input type="text" name="name" id="name" placeholder="Enter name" />
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter e-mail"
+            />
+
+            <textarea
+              name="message"
+              id="message"
+              rows="10"
+              placeholder="Write your message here"
+            ></textarea>
+            <div>
+              <button class="btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+        <section class="icon">
+          <i class="fa-regular fa-envelope fa-bounce"></i>
+        </section>
+      </div>
+    </main>
+    <!--Footer section-->
+    <footer>
+      <section class="footer-sections address">
+        <div>
+          <p><strong>Address:</strong></p>
+          <address>
+            77 Venter street <br />
+            Kempton Park <br />
+            Johannesburg <br />
+            1620
+          </address>
+        </div>
+
+        <span class="social-icons">
+          <i class="fa-brands fa-facebook fa-beat"></i>
+          <i class="fa-brands fa-instagram fa-beat"></i>
+          <i class="fa-brands fa-linkedin fa-beat"></i>
+        </span>
+      </section>
+      <section class="footer-sections contact">
+        <h3>Contacts</h3>
+        <p><strong>Phone:</strong> 067 182 8094</p>
+        <p><strong>E-mail:</strong> pooetsholofetso@gmail.com</p>
+      </section>
+      <section class="footer-sections map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.9393948101747!2d28.238481474749058!3d-26.100896959773372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9514e56264872b%3A0x6c6fe76669fd2819!2s77%20Venter%20St%2C%20Kempton%20Park%2C%201620!5e0!3m2!1sen!2sza!4v1743558221463!5m2!1sen!2sza"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </footer>
+  </body>
+</html>
