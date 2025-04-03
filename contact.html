@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Pooe. T</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -24,187 +28,26 @@
       href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
       rel="stylesheet"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        font-family: "Roboto", sans-serif;
-      }
-      .nav-section {
-        display: flex;
-        justify-content: space-between;
-        background: #000;
-        color: #fff;
-      }
-      .logo {
-        text-decoration: none;
-        color: #fff;
-        margin-left: 15px;
-      }
-      .pipe {
-        color: rgb(1, 175, 39);
-      }
-      .navbar ul {
-        overflow: hidden;
-        list-style: none;
-      }
-      .navbar li {
-        display: inline-block;
-      }
-      .nav-links:hover,
-      .nav-links.active {
-        background: rgb(1, 175, 39);
-      }
-      .navbar .nav-links {
-        display: block;
-        text-decoration: none;
-        color: #fff;
-        padding: 15px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-      }
-
-      main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-
-      .inputs {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: rgb(1, 175, 39);
-        height: 80%;
-        width: 80%;
-      }
-      .form-data input {
-        width: 80%;
-        height: 30px;
-        margin: 10px 0;
-        border: none;
-        border-radius: 10px;
-        padding: 5px;
-      }
-      .form-data textarea {
-        width: 80%;
-        margin-top: 10px;
-        border: none;
-        border-radius: 10px;
-        padding: 5px;
-      }
-
-      .form-data .title {
-        margin: 20px 0;
-        width: 80%;
-        font-family: "Protest Riot", sans-serif;
-        font-size: 1.8rem;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      .form-data .btn {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 10px;
-        font-size: 1.5rem;
-      }
-      .form-data div {
-        margin-top: 15px;
-        text-align: center;
-        width: 80%;
-      }
-
-      .icon {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 8rem;
-        background: #000;
-        color: rgb(1, 175, 39);
-        height: 80%;
-        width: 80%;
-      }
-
-      footer {
-        display: flex;
-        justify-content: space-around;
-        background: #000;
-        height: auto;
-        margin-top: 40px;
-      }
-      .footer-sections {
-        color: #fff;
-        width: 90%;
-        padding: 30px;
-      }
-      .address {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      .social-icons {
-        display: flex;
-        justify-content: space-between;
-        font-size: 2.5rem;
-        margin-top: 30px;
-      }
-      .contact {
-        text-align: center;
-      }
-      /* width */
-      ::-webkit-scrollbar {
-        width: 5px;
-      }
-
-      /* Track */
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1;
-      }
-
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: rgb(0, 0, 0);
-        border-radius: 20px;
-      }
-
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: rgb(1, 175, 39);
-      }
-      @media (max-width: 800px) {
-        footer {
-          flex-direction: column;
-          align-items: center;
-          height: 100px auto;
-        }
-        .footer-sections {
-          text-align: center;
-        }
-      }
-    </style>
   </head>
   <body>
     <!--Header section-->
     <header class="nav-section">
-      <h1>
-        <a class="logo" href="#"
-          >Tsholofetso<span class="pipe">.</span>Pooe<span class="pipe"
-            >()</span
-          ></a
-        >
-      </h1>
-      <nav class="navbar">
+      <a href="index.html" class="logo"
+        >Tsholofetso<span class="pipe">(</span>Pooe<span class="pipe"
+          >)</span
+        ></a
+      >
+
+      <div class="hamburger" id="hamburger">
+        &#9776;
+        <!-- Hamburger icon -->
+      </div>
+      <nav class="navbar" id="navbar">
         <ul>
-          <li><a class="nav-links" href="index.html">Home</a></li>
-          <li><a class="nav-links" href="about.html">About me</a></li>
+          <li><a href="index.html" class="nav-links">Home</a></li>
+          <li><a href="about.html" class="nav-links">About me</a></li>
           <li>
-            <a class="nav-links active" href="contact.html">Contact us</a>
+            <a href="contact.html" class="nav-links active">Contact us</a>
           </li>
         </ul>
       </nav>
@@ -275,5 +118,6 @@
         ></iframe>
       </section>
     </footer>
+    <script src="menu.js"></script>
   </body>
 </html>

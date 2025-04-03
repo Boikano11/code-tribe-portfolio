@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  height: auto;
+}
+.footer-sections {
+  color: #fff;
+  width: 90%;
+  padding: 30px;
+}
+
+.social-icons {
+  display: flex;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+.contact,
+.address {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    flex-direction: column;
+  }
+  .map iframe {
+    width: 100%;
+  }
+}
