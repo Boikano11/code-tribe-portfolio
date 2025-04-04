@@ -10,10 +10,11 @@
 }
 .about-text h1 {
   font-family: "Protest Riot", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 40px;
+  text-align: center;
 }
 .about-text p {
   font-size: 1.2rem;
@@ -33,10 +34,11 @@
   }
   .about-img {
     margin-top: 30px;
+    text-align: center;
   }
   .about-img img {
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 80%;
   }
   .about-text {
     width: 90%;
