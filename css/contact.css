@@ -13,8 +13,11 @@
   height: 80%;
   width: 80%;
 }
+.form-data {
+  text-align: center;
+}
 .form-data input {
-  width: 100%;
+  width: 80%;
   height: 30px;
   margin: 10px 0;
   border: none;
@@ -49,7 +52,7 @@
 .form-data div {
   margin-top: 15px;
   text-align: center;
-  width: 80%;
+  width: 100%;
 }
 
 .icon {
@@ -61,6 +64,7 @@
   background: #000;
   color: rgb(1, 175, 39);
   height: 80%;
+  width: 40%;
 }
 
 @media only screen and (max-width: 767px) {
